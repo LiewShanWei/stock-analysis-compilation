@@ -4,6 +4,7 @@ import OpenCnbcUrl from "./Urls/OpenCnbcUrl";
 import OpenFinvizUrl from "./Urls/OpenFinvizUrl";
 import OpenSeekingAlphaUrl from "./Urls/OpenSeekingAlphaUrl";
 import OpenStockwitsUrl from "./Urls/OpenStockwitsUrl";
+import OpenStreetInsiderUrl from "./Urls/OpenStreetInsiderUrl";
 
 
 const Search = () => {
@@ -21,6 +22,7 @@ const Search = () => {
         OpenChartMillUrl(enteredTicker);
         OpenSeekingAlphaUrl(enteredTicker);
         OpenCnbcUrl(enteredTicker);
+        OpenStreetInsiderUrl(enteredTicker);
     };
 
     return (
