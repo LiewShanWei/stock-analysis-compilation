@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import OpenChartMillUrl from "./Urls/OpenChartMillUrl";
 import OpenFinvizUrl from "./Urls/OpenFinvizUrl";
+import OpenSeekingAlphaUrl from "./Urls/OpenSeekingAlphaUrl";
 import OpenStockwitsUrl from "./Urls/OpenStockwitsUrl";
 
 
@@ -17,6 +18,7 @@ const Search = () => {
         OpenFinvizUrl(enteredTicker);
         OpenStockwitsUrl(enteredTicker);
         OpenChartMillUrl(enteredTicker);
+        OpenSeekingAlphaUrl(enteredTicker);
     };
 
     return (
