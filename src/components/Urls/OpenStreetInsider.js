@@ -4,8 +4,8 @@ const StreetInsiderUrl = (ticker) => {
     return url + ticker
 };
 
-const OpenStreetInsiderUrl = (ticker) => {
+const OpenStreetInsider = (ticker) => {
     return window.open(StreetInsiderUrl(ticker), "_blank","noopener,noreferrer")
 };
 
-export default OpenStreetInsiderUrl;
+export default OpenStreetInsider;

@@ -4,8 +4,8 @@ const SeekingAlphaUrl = (ticker) => {
     return url + ticker
 };
 
-const OpenSeekingAlphaUrl = (ticker) => {
+const OpenSeekingAlpha = (ticker) => {
     return window.open(SeekingAlphaUrl(ticker), "_blank","noopener,noreferrer")
 };
 
-export default OpenSeekingAlphaUrl;
+export default OpenSeekingAlpha;

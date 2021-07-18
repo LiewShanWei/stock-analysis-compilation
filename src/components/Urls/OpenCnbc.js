@@ -4,8 +4,8 @@ const CnbcUrl = (ticker) => {
     return url + ticker
 };
 
-const OpenCnbcUrl = (ticker) => {
+const OpenCnbc = (ticker) => {
     return window.open(CnbcUrl(ticker), "_blank","noopener,noreferrer")
 };
 
-export default OpenCnbcUrl;
+export default OpenCnbc;

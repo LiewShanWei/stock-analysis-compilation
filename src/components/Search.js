@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import OpenChartMillUrl from "./Urls/OpenChartMillUrl";
-import OpenCnbcUrl from "./Urls/OpenCnbcUrl";
-import OpenFinvizUrl from "./Urls/OpenFinvizUrl";
-import OpenSeekingAlphaUrl from "./Urls/OpenSeekingAlphaUrl";
-import OpenStockwitsUrl from "./Urls/OpenStockwitsUrl";
-import OpenStreetInsiderUrl from "./Urls/OpenStreetInsiderUrl";
+import OpenChartMill from "./Urls/OpenChartMill";
+import OpenCnbc from "./Urls/OpenCnbc";
+import OpenFinviz from "./Urls/OpenFinviz";
+import OpenSeekingAlpha from "./Urls/OpenSeekingAlpha";
+import OpenStockwits from "./Urls/OpenStockwits";
+import OpenStreetInsider from "./Urls/OpenStreetInsider";
 
 
 const Search = () => {
@@ -17,12 +17,12 @@ const Search = () => {
     const SearchTickerHandler = () => {
         console.log("Ticker Entered: " + enteredTicker);
 
-        OpenFinvizUrl(enteredTicker);
-        OpenStockwitsUrl(enteredTicker);
-        OpenChartMillUrl(enteredTicker);
-        OpenSeekingAlphaUrl(enteredTicker);
-        OpenCnbcUrl(enteredTicker);
-        OpenStreetInsiderUrl(enteredTicker);
+        OpenFinviz(enteredTicker);
+        OpenStockwits(enteredTicker);
+        OpenChartMill(enteredTicker);
+        OpenSeekingAlpha(enteredTicker);
+        OpenCnbc(enteredTicker);
+        OpenStreetInsider(enteredTicker);
     };
 
     return (

@@ -4,8 +4,8 @@ const ChartMillUrl = (ticker) => {
     return url + ticker
 };
 
-const OpenChartMillUrl = (ticker) => {
+const OpenChartMill = (ticker) => {
     return window.open(ChartMillUrl(ticker), "_blank","noopener,noreferrer")
 };
 
-export default OpenChartMillUrl;
+export default OpenChartMill;

@@ -4,8 +4,8 @@ const StockwitsUrl = (ticker) => {
     return url + ticker
 };
 
-const OpenStockwitsUrl = (ticker) => {
+const OpenStockwits = (ticker) => {
     return window.open(StockwitsUrl(ticker), "_blank","noopener,noreferrer")
 };
 
-export default OpenStockwitsUrl;
+export default OpenStockwits;
