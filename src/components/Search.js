@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import OpenFinvizUrl from "./Urls/OpenFinvizUrl";
+import OpenStockwitsUrl from "./Urls/OpenStockwitsUrl";
 
 
 const Search = () => {
@@ -13,6 +14,7 @@ const Search = () => {
         console.log("Ticker Entered: " + enteredTicker);
 
         OpenFinvizUrl(enteredTicker);
+        OpenStockwitsUrl(enteredTicker);
     };
 
     return (
