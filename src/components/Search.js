@@ -1,6 +1,6 @@
 import React, { useState } from "react";
+import OpenFinvizUrl from "./Urls/OpenFinvizUrl";
 
-const finvizUrl = "https://finviz.com/quote.ashx?t="
 
 const Search = () => {
     const [enteredTicker,setEnteredTicker] = useState();
@@ -11,7 +11,8 @@ const Search = () => {
 
     const SearchTickerHandler = () => {
         console.log("Ticker Entered: " + enteredTicker);
-        window.open(finvizUrl + enteredTicker,"_blank","noopener,noreferrer");
+
+        OpenFinvizUrl(enteredTicker);
     };
 
     return (
