@@ -27,9 +27,8 @@ const Search = () => {
 
     return (
         <React.Fragment>
-            <label>Type a Stock Symbol: </label>
-            <input onChange={OnEnterTickerHandler} type="text"/>
-            <button onClick={SearchTickerHandler}>Open Analysis Pages</button>
+            <input placeholder="Enter a Stock Ticker" onChange={OnEnterTickerHandler} type="text"/>
+            <button onClick={SearchTickerHandler}>Open Stock Pages</button>
         </React.Fragment>
     );
 };
