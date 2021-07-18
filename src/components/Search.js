@@ -5,6 +5,7 @@ import OpenFinviz from "./Urls/OpenFinviz";
 import OpenSeekingAlpha from "./Urls/OpenSeekingAlpha";
 import OpenStockwits from "./Urls/OpenStockwits";
 import OpenStreetInsider from "./Urls/OpenStreetInsider";
+import OpenYahooFinance from "./Urls/OpenYahooFinance";
 
 
 const Search = () => {
@@ -23,6 +24,7 @@ const Search = () => {
         OpenSeekingAlpha(enteredTicker);
         OpenCnbc(enteredTicker);
         OpenStreetInsider(enteredTicker);
+        OpenYahooFinance(enteredTicker);
     };
 
     return (
